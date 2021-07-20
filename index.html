@@ -33,10 +33,10 @@ button.addEventListener("click", function(evt){
 console.log("button clicked")
 if(Video_0.muted==true){
 button.innerHTML="No Audio";
-Video_0.muted=true;
+Video_0.unmuted=true;
 }else{
 button.innerHTML="Audio";
-Video_0.muted=false;
+Video_0.unmuted=false;
 }
 });
 
